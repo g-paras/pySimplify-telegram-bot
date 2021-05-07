@@ -17,10 +17,10 @@ PORT = int(os.environ.get('PORT', 5000))
 def start(update, context):
     """Send a message when the command /start is issued."""
     update.message.reply_text('''Welcome to pySimplify
-    /quiz -> for python quiz
-    /poll -> participate in poll
-    /fact -> know a python funfact
-    /feedback -> give us a feedback''')
+/quiz -> for python quiz
+/poll -> participate in poll
+/fact -> know a python funfact
+/feedback -> give us a feedback''')
 
 
 def help(update, context):
