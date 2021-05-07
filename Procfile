@@ -1,1 +1,1 @@
-cycle: python3 bot.py
+clock: python3 bot.py
